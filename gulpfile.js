@@ -25,4 +25,9 @@ function babel() {
     .pipe(gulp.dest('dist/js'))
 }
 
-exports.default = gulp.parallel(cleanUpCss, imageCompress, babel);
+function htmlPipe() {
+  return gulp.src('src/index.html')
+    .pipe(gulp.dest('dist'))
+}
+
+exports.default = gulp.parallel(cleanUpCss, imageCompress, babel, htmlPipe);
