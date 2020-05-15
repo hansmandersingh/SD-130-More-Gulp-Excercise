@@ -11,9 +11,9 @@ function cleanUpCss() {
 }
 
 function imageCompress() {
-  return gulp.src('src/img/*')
+  return gulp.src('src/images/*')
     .pipe(imagemin())
-    .pipe(gulp.dest('dist/img'))
+    .pipe(gulp.dest('dist/images'))
 }
 
 function babelJS() {
