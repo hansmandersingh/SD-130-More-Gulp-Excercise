@@ -1,0 +1,28 @@
+{
+  "name": "automationpiggame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hansmandersingh/SD-130-More-Gulp-Excercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hansmandersingh/SD-130-More-Gulp-Excercise/issues"
+  },
+  "homepage": "https://github.com/hansmandersingh/SD-130-More-Gulp-Excercise#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0"
+  },
+  "devDependencies": {
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
