@@ -16,7 +16,7 @@ function imageCompress() {
     .pipe(gulp.dest('dist/img'))
 }
 
-function babel() {
+function babelJS() {
   return gulp.src('src/js/app.js')
     .pipe(babel({
       presets: ['@babel/env']
@@ -30,4 +30,4 @@ function htmlPipe() {
     .pipe(gulp.dest('dist'))
 }
 
-exports.default = gulp.parallel(cleanUpCss, imageCompress, babel, htmlPipe);
+exports.default = gulp.parallel(cleanUpCss, imageCompress, babelJS, htmlPipe);
